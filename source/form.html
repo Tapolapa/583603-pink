@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Pink</title>
@@ -36,8 +36,8 @@
     </nav>
  </header>
  <main class="page-main">
-   <fieldset class="page-main__content-set">
-     <div class="content-set">
+   <section class="page-main__content-set">
+     <div class="container-set">
      <p>Поделитесь своей историей и получите шанс выиграть ценный приз-1000 миль на вашу бонусную карту!</p>
      <label class="content-set__user-data">Фамилия:
        <input class="content-set__user-data__item" type="text" value="Укажите фамилию*">
@@ -49,28 +49,36 @@
        <input class="user-data__item" type="text"value="Ну и отчество тоже">
      </label>
      </div>
-     <div class="content-set">
-       <input class="content-set__user-check"type="checkbox" checked id="one">
+   </section>
+   <section class="page-main__checkbox-set">
+     <div class="container-set">
+       <input class="checkbox-set__checkbox-input"type="checkbox" checked id="one">
        <label class="user-check__checkbox"for="one">Сделал селфи с акулой
-       <h3>Ваши безбашенные достижения в путешествии</h3>
+       <h2>Ваши безбашенные достижения в путешествии</h2>
        </label>
-       <input class="content-set__user-check"type="checkbox"checked id="two">
-       <label class="user-check__checkbox" for="two">Обгорел на пляже</label>
-       <input class="content-set__user-check"type="checkbox" id="three">
-       <label class="user-check__checkbox"for="three">Видел Чака Норриса</label>
-       <input class="content-set__user-check"type="checkbox"id="four">
-       <label class="user-check__checkbox"for="four">Накупил сувениров</label>
-       <input class="content-set__user-check"type="checkbox"id="five">
-       <label class="user-check__checkbox"for="five">Удержал башню </label>
+       <input class="checkbox-set__checkbox-input"type="checkbox"checked id="two">
+       <label class="checkbox-set__checkbox-label" for="two">Обгорел на пляже</label>
+       <input class="checkbox-set__checkbox-input"type="checkbox" id="three">
+       <label class="checkbox-set__checkbox-label"for="three">Видел Чака Норриса</label>
+       <input class="checkbox-set__checkbox-input"type="checkbox"id="four">
+       <label class="checkbox-set__checkbox-label"for="four">Накупил сувениров</label>
+       <input class="checkbox-set__checkbox-input"type="checkbox"id="five">
+       <label class="checkbox-set__checkbox-label"for="five">Удержал башню </label>
      </div>
-     <div class="content-set">
-      <label class="content-set__user-data">номер телефона
+   </section>
+   <section class="page-main__user-contacts">
+     <div class="container-set">
+      <label class="page-main__user-data">номер телефона
        <input class="user-data"type="text" value="Номер,пожалуйста">
       </label>
-      <label class="content-set__user-data">Адрес почты
+      <label class="page-main__user-data">Адрес почты
        <input class="user-data"type="text" value="Введите почту*">
       </label>
-      <label class=content-set__user-form">Pink для IOS
+     </div>
+   </section>
+   <section class="page-main__user-form">
+    <div class="container-set">
+      <label class="page-main__user-form">Pink для IOS
        <input class="user-form"type="radio">
       </label>
       <label class=content-set__user-form">Pink на Android
@@ -80,14 +88,16 @@
        <input class="user-form"type="radio">
       </label>
      </div>
-     <div class="content-form">
+  </section>
+   <section class="page-main__content-form">
+     <div class="container-set">
      <form class="content-form__text-form" action="https://echo.htmlacademy.ru"method="post">
        <input class="text-form__user-text"placeholder="Можно прям в красках,не стесняясь в выражениях">
        <input class="text-form__send" type="submit" value="Отправить форму">
        <p class="text-form__important-field">*_Обязательные поля</p>
      </form>
      </div>
-   </fieldset>
+   </section>
   </main>
  <footer class="footer">
    <a class="footer__logo"href="#">
@@ -104,8 +114,8 @@
        <a class="links-item__link" href="#">Youtube</a>
      </li>
    </ul>
-   <div class="footer__developed">
-     <p class="footer__text">Разработано</p>
+   <div class="footer__copyright">
+     <p class="footer__copyright-text">Разработано</p>
      <a href="#" target="_blank">
        <img src="#"alt="Лого">
      </a>
