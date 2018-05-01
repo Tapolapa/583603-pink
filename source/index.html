@@ -1,10 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Pink</title>
 </head>
 <body>
-
+ <header class="page-header">
+  <a class="page-header__logo-link">
+    <img class="page-header__logo-image" src="#" alt="Пинк">
+  </a>
+  <nav class="main-nav">
+    <button class="main-nav__toggle" type="button">Открыть меню</button>
+    <div class="main-nav__wrapper">
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item">
+          <a>Главная</a>
+        </li>
+        <li class="site-list__item">
+          <a>Фотография</a>
+        </li>
+        <li class="site-list__item">
+          <a>Конкурс</a>
+        </li>
+        <li class="site-list__item">
+          <a>HTML Academy</a>
+        </li>
+      </ul>
+      <ul class="main-nav__list user-list">
+        <li class="user-list__item">
+          <a class="user-list__login"href="#">Войти</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <a class="page-header__logo-link">
+      <img class="page-header_main-image" src="#" alt="Фото">
+    </a>
+  </div>
+  <div class="container-item">
+    <input class="button"type="button"value="скачать приложение">
+    <ul class="container-item__items-list">
+      <li class="items-list__links-item">
+        <a class="links-item__link" href="#">Apple</a>
+      </li>
+      <li class="items-list__links-item">
+        <a class="links-item__link" href="#">Android</a>
+      </li>
+      <li class="items-list__links-item">
+        <a class="links-item__link" href="#">Windows</a>
+      </li>
+    </ul>
+    <p class="container-item__text">Доступно для iPhone,iPad,Android,windows Phone,OS X,Windows8</p>
+  </div>
+ </header>
+ <main class="page-main">
+   <section class="page-main__content-set">
+     <div class="content-set">
+       <h2 class="content-text">Устали от серости мегаполиса? Нам есть, что вам предложить!</h2>
+     </div>
+      <div class="content">
+        <div class="content-container">
+        <h3 class="content__heading-content">Поднимает настроение</h3>
+        <p class="content__p-title">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        <h3 class="content__heading-content">Меняет мир вокруг вас</h3>
+        <p class="content__p-title">Сделайте снимок и украсьте его смайликом или текстовой подрисью,чтобы усилить эффект</p>
+        <h3 class="content__heading-content">Заводит новых друзей</h3>
+        <p class="content__p-title">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        <a class="content__logo-link">
+          <img class="page-main__logo-image" src="#" alt="Лого">
+        </a>
+        </div>
+      </div>
+     <div class="review-container">
+     <article class="reviews-content">
+       <h2 class="reviews-content__heading-review">Николай Петров</h2>
+       <p class="reviews-content__review-text">"Это приложение перевернуло мой мир и позволило по-новому взглягуть на привычные серые вещи! А еще я познакомился со своей будующей женой в комментариях к выложенной фотографии!" </p>
+     </article>
+     </div>
+     <div class="slider-toggle__slider-review"></div>
+   </section>
+   <section class="page-main__price">
+     <table class="price-table">
+       <tr>
+         <td class="price-table__header price-table__header--empty"></td>
+         <td class=price-table__header">
+           <div class="price-table__flag">Хит</div>
+           <p class="price-table__title">База</p>
+           <p class="price-table__cost">1,99 USD</p>
+         </td>
+         <td class="price-table__header">
+           <div class="price-table__flag price-table__flag--hit">Хит</div>
+           <p class="price-table__title">Стандарт</p>
+           <p class="price-table__cost">3,99 USD</p>
+         </td>
+         <td class="price-table__header">
+           <div class="price-table__flag">Хит</div>
+           <p class="price-table__title">Анлим</p>
+           <p class="price-table__cost">9,99 USD</p>
+         </td>
+       </tr>
+       <tr>
+         <td class="price-table__service price-table__service--tablet">Розовый фильтр</td>
+         <td class="price-table__service price-table__service--yes"><span class="service-mobile">Розовый фильтр</span></td>
+         <td class="price-table__service price-table__service--yes"><span class="service-mobile">Розовый фильтр</span></td>
+         <td class="price-table__service price-table__service--yes"><span class="service-mobile">Розовый фильтр</span></td>
+       </tr>
+       <tr>
+         <td class="price-table__service price-table__service--tablet">Смайлики</td>
+         <td class="price-table__service price-table__service--no"><span class="service-mobile">Смайлики</span></td>
+         <td class="price-table__service price-table__service--yes"><span class="service-mobile">Смайлики</span></td>
+         <td class="price-table__service price-table__service--yes"><span class="service-mobile">Смайлики</span></td>
+       </tr>
+       <tr>
+         <td class="price-table__service price-table__service--tablet">Комментарии</td>
+         <td class="price-table__service price-table__service--no"><span class="service-mobile">Комментарии</span></td>
+         <td class="price-table__service price-table__service--no"><span class="service-mobile">Комментарии</span></td>
+         <td class="price-table__service price-table__service--yes"><span class="service-mobile">Комментарии</span></td>
+       </tr>
+     </table>
+     <div class="slider-toggle__slider-price"></div>
+   </section>
+   <div class="contacts">
+     <div class="contacts-conteiner">
+       <h1 class="contacts-heading">Остались вопросы? Свяжитесь с нами!</h1>
+       <div class="contacts-item">
+         <h2 class="contacts-item__title">Звоните</h2>
+         <p class="contacts-item__number">+7(812)555-66-66</p>
+         <h2 class="contacts-item__title">Пишите:</h2>
+         <p class="contacts-item__email">mail@htmlacademy.ru</p>
+         <h2 class="contacts-item__title">Приезжайте в гости:</h2>
+         <p class="contacts-item__address"> ул.Большая Конюшенная, 19/8 </p>
+       </div>
+     </div>
+   </div>
+   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+   <script src="js/map.js"></script>
+   <script src="js/script.js"></script>
+ </main>
 </body>
 </html>
