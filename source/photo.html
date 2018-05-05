@@ -1,45 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Pink</title>
+    <title>Фото Пинк</title>
 </head>
-<body>
- <header class="page-header">
-  <a class="page-header__logo-link">
-    <img class="page-header__logo-image" src="#" alt="Пинк">
+ <header class="photo-header">
+  <a class="photo-header__logo-link">
+    <img class="photo-header__logo-image" src="#" alt="Пинк">
   </a>
-  <nav class="main-nav">
-    <button class="main-nav__toggle"type="button">Открыть меню</button>
-    <div class="main-nav__wrapper">
-      <ul class="main-nav__list site-list">
+  <nav class="photo-nav">
+    <button class="photo-nav__toggle"type="button">Открыть меню</button>
+    <div class="photo-nav__wrapper">
+      <ul class="photo-nav__list site-list">
         <li class="site-list__item">
-          <a>Главная</a>
+          <a href="index.html">Главная</a>
         </li>
         <li class="site-list__item">
-          <a href="#">Фотографии</a>
+          <a>Фотографии</a>
         </li>
         <li class="site-list__item">
-          <a href="#">Конкурс</a>
+          <a href="form.html">Конкурс</a>
         </li>
         <li class="site-list__item">
-          <a href="#">HTML Academy</a>
+          <a href="http://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </li>
       </ul>
-      <ul class="main-nav__list user-list">
-        <li class="user-list__item">
-          <a class="user-list__login"href="#">Войти</a>
-        </li>
-      </ul>
-      <h1 class="vissually-hidden">Фотографии пользователей</h1>
+      <div class="photo-header__logo">
+        <h2 class="logo__title">Фотографии пользователей</h2>
+      </div>
     </div>
   </nav>
  </header>
- <main class="page-main">
-  <section class="legend">
-    <div class="legend__wrapper">
-    <p class="legend__text">Взгляните на фотографии,которые выкладывают пользователи!<br>Видите,как не хватает ваших?</p>
-    </div>
+ <main class="photo-main">
+  <section class="text-block">
+    <p class="text-block__text">Взгляните на фотографии,которые выкладывают пользователи!<br>Видите,как не хватает ваших?</p>
   </section>
    <section class="comments">
      <div class="comments__wrapper">
@@ -108,10 +102,8 @@
        </blockquote>
      </div>
    </section>
-   <section class="legend">
-     <div class="legend__wrapper">
-     <p class="legend__text">Затмите их всех!<br>Выкладывайте все,что накопилось в телефоне!</p>
-     </div>
+   <section class="text-block">
+     <p class="text-block__text">Затмите их всех!<br>Выкладывайте все,что накопилось в телефоне!</p>
    </section>
    <section class="editor">
      <div class="editor__wrapper-slidder">
@@ -133,19 +125,21 @@
          <input type="range">
        </p>
        <div class="editor__buttons btn">
-         <button class="btn" type="submit" value="submit" name="Запостить">Запостить</button>
+       <p class="btn"><button class="btn" type="submit" value="submit" name="Запостить">Запостить</button></p>
          <button class="btn" type="reset" value="reset" name="Отмена">Отмена</button>
        </div>
          </div>
        </section>
      </div>
  </main>
- <footer class="page-footer">
-   <div class="page-footer__wrapper">
-     <a class="page-footer__logo"href="#">PINK
+ <footer class="photo-footer">
+   <div class="photo-footer__wrapper">
+     <p class="photo-footer__link">
+     <a class="photo-footer__logo"href="#">PINK
        <img src="#"alt="Логотип">
      </a>
-    <div class="page-footer__social social">
+     </p>
+    <div class="photo-footer__social social">
       <ul class="social_list">
         <li class="social_item">
           <a class="social_link--twitter"href="http://twitter.com/htmlacademy">Twitter</a>
@@ -158,9 +152,9 @@
         </li>
       </ul>
     </div>
-     <div class="page-footer__copyright copyright">
+     <div class="photo-footer__copyright copyright">
        <b class="copyright_text">Разработано</b>
-       <a class="button copyright_link" href="#" target="_blank">
+       <a class="button copyright_link" href="http://htmlacademy.ru/intensive/adaptive" target="_blank">
          <img src="https://github.com/htmlacademy/logo."alt="Лого">
        </a>
      </div>
