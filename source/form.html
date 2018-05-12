@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8">
+    <title>Контакт Пинк</title>
+  </head>
+  <body>
+  <header class="header">
+    <a class="header__logo-link">
+      <img class="header__logo-image" src="#" alt="Пинк">
+    </a>
+    <nav class="header__nav page-nav">
+      <button class="page-nav__toggle" type="button">Открыть меню</button>
+      <div class="page-nav__wrapper">
+        <ul class="page-nav__list">
+          <li class="page-nav__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="page-nav__item">
+            <a class="page-nav__link" href="photo.html">Фотографии</a>
+          </li>
+          <li class="page-nav__item">
+            <a href="/">Конкурс</a>
+          </li>
+          <li class="page-nav__item">
+            <a class="page-nav__link" href="http://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="header__title page-title">Конкурс на самое безбашенное путешествие с Пинк</h1>
+  </header>
+  <main class="page-forms">
+    <div class="page-forms__wrapper">
+      <h2 class="visually-hidden">Форма</h2>
+      <p class="page-forms__text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу
+        бонусную карту!</p>
+      <form class="page-forms__form forms" method="post" action="https://echo.htmlacademy.ru/">
+        <section class="forms__user-data">
+          <label class="forms__label-text" for="surname">Фамилия:</label>
+          <input class="forms__input-text" type="text" id="surname" placeholder="Укажите фамилию*" required>
+          <label class="forms__label-text" for="name">Имя:</label>
+          <input class="forms__input-text" type="text" id="name" placeholder="Введите ваше имя*" required>
+          <label class="forms__label-text" for="middlename">Отчество:</label>
+          <input class="forms__input-text" type="text" id="middlename" placeholder="Ну и отчество тоже">
+        </section>
+        <section class="forms__user-checkbox">
+          <h3 class="forms__title">Ваши безбашенные достижения в путешествии</h3>
+          <div class="forms__space">
+            <input class="forms__input-title" type="checkbox" id="shark" checked>
+            <label class="forms__label-title" for="shark">Сделал селфи с акулой</label>
+          </div>
+          <div class="forms__space">
+            <input class="forms__input-title" type="checkbox" id="beach" checked>
+            <label class="forms__label-title" for="beach">Обгорел на пляже</label>
+          </div>
+          <div class="forms__space">
+            <input class="forms__input-title" type="checkbox" id="norris">
+            <label class="forms__label-title" for="norris">Видел Чака Норриса</label>
+          </div>
+          <div class="forms__space">
+            <input class="forms__input-title" id="suv" type="checkbox">
+            <label class="forms__label-title" for="suv">Накупил сувениров</label>
+          </div>
+          <div class="forms__space">
+            <input class="forms__input-title" type="checkbox" id="tow" checked>
+            <label class="forms__label-title" for="tow">Удержал башню</label>
+          </div>
+          <div class="forms__space">
+            <input class="forms__input-title" type="checkbox" id="hot">
+            <label class="forms__label-title" for="hot">Разгромил отель</label>
+          </div>
+        </section>
+        <section class="forms__data">
+          <label class="forms__label-text" for="num">Номер телефона:</label>
+          <input class="forms__input-text" type="tel" id="num" placeholder="Номер,пожалуйста">
+          <label class="forms__label-text" for="email">Адрес почты:</label>
+          <input class="forms__input-text" type="email" id="email" placeholder="Введите почту*" required>
+        </section>
+        <section class="forms__radiobutton">
+          <h3 class="forms__title">С каким приложением путешествовали?</h3>
+          <div class="forms__space">
+            <input class="forms__input-title" type="radio" id="ios" checked>
+            <label class="forms__label-title" for="ios">Pink для IOS</label>
+          </div>
+          <div class="forms__space">
+            <input class="forms__input-title" type="radio" id="android">
+            <label class="forms__label-title" for="android">Pink на Android</label>
+          </div>
+          <div class="forms__space">
+            <input class="forms__input-title" type="radio" id="win">
+            <label class="forms__label-title" for="win">Windows Phone</label>
+          </div>
+        </section>
+        <section class="forms__area">
+        <h3 class="forms__title">Опишите свои эмоции</h3>
+          <textarea class="forms__area-text">Можно прям в красках,не стесняйтесь в выражениях</textarea>
+        </section>
+        <div class="forms__button-wrap ">
+          <input class="forms__button" type="submit" value="Отправить форму">
+        </div>
+        <p class="forms__text"><span class="forms__star">*</span> -Обязательные поля</p>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <a class="footer__logo" href="#">PINK
+        <img src="#" alt="Логотип">
+      </a>
+      <div class="footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="http://twitter.com/htmlacademy">Twitter</a>
+          </li>
+          <li class="social_item">
+            <a class="social__link social__link--facebook" href="http://facebook.com/htmlacademy">facebook</a>
+          </li>
+          <li class="social_item">
+            <a class="social__link social__link--youtube" href="http://youtube.com/htmlacademy">Youtube</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copyright">Разработано
+        <a href="#" target="_blank">
+          <img src="https://github.com/htmlacademy/logo." alt="Лого">
+        </a>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
